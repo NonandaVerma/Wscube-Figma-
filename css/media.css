@@ -1,0 +1,243 @@
+@media only screen and (min-width:200px) and (max-width:575px)
+{
+     .displayNone{ display:none;}
+
+   nav{  margin:auto;
+          width:100%;
+      }
+
+    .logo{margin:auto;}
+
+    .opportunities{flex-direction: column;}
+
+    #Opportunities aside
+    { width:95%;
+      margin:auto;
+    }
+
+    #Opportunities h1
+    { 
+      font-size:40px;
+      text-align: center;
+    }
+
+    #Opportunities p
+    {font-size:20px;
+     text-align: center;
+     padding:10px 20px;}
+
+     .opportunities ul li
+     { font-size:18px;}
+
+     .opportunities ul li>span
+     { padding-left:5px;}
+
+     .opportunities ul li>span>img
+     { width:18px;
+       height:18px;
+     }
+
+     .btnRow
+     { display:flex;
+       justify-content: center;}
+
+     .btnRow .demobtn
+     { padding:12px 20px;
+        font-size:15px;
+     }
+
+    .btnRow .curriculum
+    { padding:12px 20px;
+      font-size:15px;
+      margin-left:15px;
+   }
+
+   .circle{ width:80%;
+            height:520px;}
+
+ #Features
+{ width:100%;
+  margin-top:450px;
+}
+
+#Features .features
+{ width:90%;}
+
+.features .featBox
+{ width:40%;
+  margin:2%;
+}
+
+.highlights>h2
+{ font-size:30px;
+  text-align: center;
+}
+
+ .highlights>p
+{ font-size:15px;
+  color: #0A2134;
+  text-align: center;
+  padding:15px 20px 20px 10px;
+}
+
+.high-Course-Outer
+{ justify-content: center;}
+
+.hcBox
+{ width:90%;
+  margin:2%;
+  
+}
+
+.digMark
+{ width:100%;
+  
+}
+
+.digMark h3
+{ width:90%;
+  padding:0px;
+  padding:40px 20px 10px 20px;
+  font-size:40px;
+  
+}
+
+.digMark>p
+{ width:95%;
+  font-size:17px;
+  padding:10px 80px 20px 80px;
+}
+
+.dm-container
+{ width:100%;
+  flex-wrap: wrap;
+}
+
+#Certificate .certificate
+{flex-direction: column;}
+
+#Certificate .cert-left
+{ width:90%;
+  margin:auto;
+  }
+
+.cert-left h4
+  { text-align: center;}
+
+  .cert-left p
+{ text-align: center;
+  padding:10px 10px 30px 0px;
+}
+
+.certBox
+{ width:100%}
+
+.certText h5
+{ font-size:17px;
+   color: #0A2134;
+  }
+
+.certText p
+{ text-align: left;
+  font-size:13px;
+}
+
+.bfree
+{ margin-left:100px;}
+
+#Certificate .cert-right
+{ width:95%;
+  height:850px;
+  margin:auto;
+  background-position: 99% 95%, 6% 9%;
+}
+
+.curriculum h4
+{ font-size:40px;}
+
+.curriculum p
+{ font-size:15px;
+  padding:0px 50px;
+}
+
+.curriculum nav ul li
+{  padding:15px 28px 15px 28px;
+   font-weight:500;
+  }
+
+.curriculum nav ul
+{ flex-direction: column;
+    text-align: center;
+    margin:auto;
+    width:50%;
+   flex-wrap: wrap;
+  }
+
+.dmCurAside
+{ font-size:16px; }
+
+.whyDM h4
+{ width:90%;
+  margin:auto;
+  text-align: center;
+ font-size: 30px;
+}
+
+.whyDM>p
+{ width:90%;
+  margin:auto;
+  text-align: center;
+  font-size:15px;
+  padding:0px 30px 30px 20px;
+}
+
+.whyDmCont
+{  flex-direction: column;}
+
+.whyDmBox
+{ width:80%;
+  margin:10px auto;
+}
+
+.students
+{ flex-direction: column;}
+
+.students h3
+{ font-size:38px;
+  width:90%;
+  margin:auto;
+}
+
+.students p
+{ font-size:16px;
+  width:90%;
+  margin: auto;
+}
+
+.studentsBox
+{ width:85%;
+  margin:20px auto;
+}
+
+.stName
+{ width:75%;}
+
+.stName b
+{ padding-left:15px;}
+
+.faq>h3
+{ font-size:35px;
+  width:90%;
+ margin:auto;
+}
+
+.faq>p
+{ width:80%;
+  font-size: 15px;
+  margin:auto;
+}
+
+.logo
+{ margin:30px auto;}
+
+}

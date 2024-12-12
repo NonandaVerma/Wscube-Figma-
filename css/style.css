@@ -1,0 +1,1008 @@
+*{ margin:0px;
+  padding:0px;
+  font-family: "Inter", sans-serif;
+  list-style: none;
+ }
+
+ header
+ { width:100%;
+  background-color:#fff;
+  z-index:1;
+   position:sticky;
+   top:0px;
+}
+
+nav
+{ max-width:1200px;
+  margin:auto;
+  padding-top:10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.whatsapp
+{ background-color:#fff;
+  color: #27AE60;
+  border-radius:8px;
+  border:solid 1px #27AE60;
+  padding:10px 15px;
+  margin-right:10px;
+  font-size:18px;
+}
+
+.whatsapp i{ padding-right:2px;}
+
+.call
+{ background: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
+ color:#fff;
+ border:none;
+ border-radius:8px;
+ padding:10px 18px;
+ font-size:18px;
+}
+
+/* header ends------------------------------------------------------------ */
+
+/* Opportunities starts---------------  */
+
+#Opportunities
+{  width:100%;
+  height:600px;
+    
+}
+
+#Opportunities .opportunities
+{  max-width:1200px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#Opportunities aside
+{ width:48%;
+  padding-bottom:20px;}
+
+#Opportunities h1
+{ font-size:52px;
+  padding:50px 10px 10px 10px;
+}
+
+#Opportunities h1>span
+{ color: #2699FB;
+  background-image:url("/images/lineback.png");
+  background-repeat:no-repeat;
+  background-position:0% 106%;
+}
+
+#Opportunities p
+{ font-size:22px;
+  line-height: 35px;
+  padding:10px 10px 10px 10px;
+}
+
+.opportunities ul li{ display:flex;
+                      align-items: center;
+                      font-size:22px;
+                    }
+
+.opportunities ul li>span{ padding:10px;
+                           font-size:20px;
+                         }
+
+.btnRow{ padding:10px;
+          margin-top:30px;
+         }    
+         
+.btnRow .demobtn
+{   
+  background: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
+  border-radius:8px;
+  color:#fff;
+  border: 1px solid;
+  border-image-source: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
+  padding:16px 40px;
+  border:none;
+  font-size:18px;
+  font-weight:700;
+  box-shadow: 0px 1px 2px 0px #1018280D, 0px 4px 14px 2px #2699FB61;
+
+}
+
+.btnRow .curriculum
+{ border: 1px solid #D0D5DD;
+    background-color:#fff;
+    padding:16px 28px;
+    border-radius:8px;
+    font-size:18px;
+    border: 1px solid #D0D5DD;
+    margin-left:30px;
+}
+
+.curriculum i{ padding-right:10px;
+                 color:#43505B;}
+
+.circle
+{ background-image: url("/images/circle.png");
+   background-repeat: no-repeat;
+   background-size:99%;
+   background-position: 0px 0px;
+}    
+
+.form{ width:70%;
+      background-color:white;
+      box-shadow: 0px 1px 2px 0px #1018280F, 0px 1px 3px 0px #1018281A;
+      margin:40px auto;
+     border-radius:8px;
+     padding:30px 0px;
+    }
+
+.inputRow{ width:80%;
+           margin:auto;
+           padding:10px 0px;
+     }
+
+.paddingTopInput{ padding-top:100px;}
+
+.inputRow label{ font-size:15px;
+                 font-weight:500;
+                  color:#071b2c;}
+
+.inputRow input{ width:93% ;
+             border: 1px solid #D0D5DD; 
+             padding:10px;
+             border-radius:8px;
+             margin-top:10px;
+              font-size:16px;
+             color:#43505B;
+           }
+
+.submitBtn
+{ width:100%;
+  padding:10px;
+  font-size:17px;
+  border-radius:8px;
+  outline:none;
+  border:none;
+  color:#fff;
+  background: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
+  box-shadow: 0px 1px 2px 0px #1018280D, 0px 4px 14px 2px #2699FB61;
+}
+
+/* ------opportunities ends-------------- */
+
+/* Features starts------------------- */
+
+#Features
+{ width:100%;
+  padding:30px 0px 50px 0px;
+}
+
+#Features .features
+{ max-width:1300px;
+  background-color: #fff;
+  margin: auto;
+  box-shadow: 0px 4px 50px 8px #002F5814;
+  border-radius:8px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.features .featBox
+{ width:15%;
+  margin:2%;
+  padding:10px 0px;
+ 
+}
+
+.featBox h3
+{ font-size:32px;
+ color: #2699FB;
+ padding-top:10px;
+
+}
+
+.featBox p
+{ font-size:16px;
+  color: #43505B;
+  padding-top:8px;
+}
+
+/* Features ends--------------- */
+
+/* Highlights starts--------------- */
+
+#Highlights
+{ width:100%;
+  background-color: #F7FAFF;
+
+}
+
+#Highlights .highlights
+{ max-width:1300px;
+  padding-bottom: 30px;
+  margin:auto;
+  display:flex;
+  flex-wrap: wrap; 
+}
+
+.highlights>h2
+{ width:100%;
+  font-size:36px;
+ padding:70px 0px 0px 10px;
+ }
+
+ .highlights>p
+{ width:100%;
+  font-size:18px;
+  color: #0A2134;
+  font-weight:400;
+  padding:15px 0px 20px 10px;
+
+}
+
+.high-Course-Outer
+{ width:100%;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding:10px 0px;
+ }
+
+ .hcBox
+ { width:31%;
+   margin:1%;
+  background-color:#fff;
+  box-shadow: 0px 4px 20px -2px #002F5814;
+  border-radius:8px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.hcIcon
+{ width:23%;
+  height:70%;
+  margin:3% 2% 3% 5%; 
+ }
+
+
+.hcText
+{ width:68%;
+   height:70%;
+   margin:3% 2% 3% 3%; 
+  text-align: left;
+}
+.hcText>h4
+{ color: #0A2134;
+  font-size:20px;
+  padding-right: 60px;
+}
+
+.hcText>p
+{ font-size:15px;
+  color: #43505B;
+  padding-top:10px;
+}
+
+.BookCourse
+{ background: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
+  padding:16px 48px;
+  color:#fff;
+  border-radius:8px;
+  font-size:18px;
+  border:none;
+  outline:none;
+  box-shadow: 0px 1px 2px 0px #1018280D, 0px 4px 14px 2px #2699FB61;
+  margin:30px auto;
+}
+
+/* Highlights ends-------------- */
+
+/* Digital marketing starts ---*/
+
+#DigMark
+{ width:100%;
+}
+
+.digMark
+{ max-width:1300px;
+  margin:auto;
+  padding-bottom:10px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.digMark h3
+{ width:100%;
+  color: #0A2134;
+  font-size:44px;
+  text-align: center;
+  padding: 50px 380px 30px 380px;
+}
+
+.digMark>p
+{ width:100%;
+  color:#0A2134;
+  font-size:18px;
+  font-weight:400;
+  text-align: center;
+  padding-bottom:50px;
+}
+
+.dm-container
+{ width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom:50px;
+  }
+
+.dmBox
+{ width:270px;
+  height:278px;
+  margin:15px;
+  background-color:#fff;
+  border: Mixed solid #F2F4F7; 
+  border-radius:8px;
+  box-shadow: 0px 0px 20px -2px #002F5814;
+}
+
+.dmicon
+{ width:56px;
+  height: 56px;;
+  background-color:#fff;
+  border: 1px solid #F2F4F7;
+  box-shadow: 0px 0px 0px 4px #F2F4F7, 0px 1px 2px 0px #1018280F, 0px 1px 3px 0px #1018281A;
+  border-radius:5px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin:30px 10px 10px 20px;
+  }
+
+.dmText>h4
+{ font-size:18px;
+  padding:20px;
+  text-align: left;
+  color:#0A2134;
+
+} 
+
+.dmText p
+{ font-size:15px;
+  color:#0A2134;
+  text-align: left;  
+  padding:0px 20px;  }
+/* Digital marketing ends---------- */
+
+/* Certificate starts-------- */
+#Certificate
+{ width:100%;
+  background-color: #F6F9FE;
+}
+
+#Certificate .certificate
+{ max-width:1300px;
+  margin:auto;
+  padding-bottom:50px;
+  display:flex;
+ 
+}
+
+#Certificate .cert-left
+{ width:50%;
+  }
+
+  .cert-left h4
+  { font-size:36px;
+    color: #0A2134;
+    padding:100px 0px 10px 0px;
+  }
+
+.cert-left p
+{ font-size:18px;
+  padding:10px 50px 30px 0px;
+  color: #0A2134;
+  line-height:27px;
+}
+
+.certBox
+{ width:600px;
+  height:130px;
+  background-color:#fff;
+  border: 1px solid #F2F4F7;
+  box-shadow: 0px 4px 20px -2px #002F5814;
+  border-radius:8px;
+  margin-top:30px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.certIcon
+{ width:15%;
+  height:60%;
+  margin:3%;
+  background-color:#E9F5FF;
+  border-radius:5px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.certText
+{ width:78%;
+  height:65%;
+  margin:1%;
+  }
+
+.certText h5
+{ font-size:20px;
+   color: #0A2134;
+  }
+
+.certText p
+{ font-size:16px;
+  line-height: 24px;
+}
+
+#Certificate .bfree
+{ width:253px;
+  height:60px;
+  background: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
+  border: 1px solid;
+  border-image-source: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
+  border-radius:8px;
+  color:#fff;
+  padding:16px 48px;
+  font-size:18px;
+  font-weight:600;
+  box-shadow: 0px 1px 2px 0px #1018280D, 0px 4px 14px 2px #2699FB61;
+  margin-top:50px;
+}
+
+#Certificate .cert-right
+{ width:45%;
+ background-image: url("/images/Ellipse\ 94.png"), url("/images/dot.png");
+background-repeat:no-repeat;
+background-position: 99% 95%, 6% 9%;
+display:flex;
+align-items: center;
+justify-content: center;
+}
+
+.cert-right img
+{ border:20px #fff solid;
+  border-radius:8px;
+  box-shadow: 0px 4px 80px -2px #002F5814;
+  
+}
+
+/* Certificate ends------ */
+
+/* Curriculum DigMark starts------- */
+#Curriculum 
+{ width:100%;
+}
+
+#Curriculum .curriculum
+{ max-width:1300px;
+  padding-bottom:30px;
+ background-color:#fff;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ margin:auto;
+}
+
+.curriculum h4
+{ width:100%;
+  text-align: center;
+  font-size:44px;
+  color:#0A2134;
+  padding:80px 0px 20px 0px;
+}
+
+.curriculum p
+{ width:100%;
+  font-size: 18px;
+  text-align: center;
+  color:#0A2134;
+}
+
+.curriculum nav
+{ width:90%;
+  margin:20px  auto;
+}
+
+.curriculum nav ul
+{ display:flex;
+  color: #43505B;
+  font-size:18px;
+}
+
+.curriculum nav ul li
+{  padding:15px 28px 15px 28px;
+   font-weight:500;
+  }
+
+.curriculum nav ul li:hover
+  { color:#071b2c;
+    font-weight:700;
+   cursor: pointer;
+   border-bottom: solid 4px #0ACEFE;
+   background-color: #F2F4F7;
+  }
+
+.dmCurriculum
+{ width:90%;
+  margin:auto;
+  border: 1px solid #F2F4F7;
+  box-shadow: 0px 4px 20px -2px #002F5814;
+  border-radius:8px;
+  display: flex;
+  justify-content: center;
+}
+
+.dmCurAside
+{ width:48%;
+  margin: 2%;
+  font-size:22px;
+  color: #0A2134;  
+}
+
+.dmRow
+{ padding:10px;
+  display:flex;
+  justify-content: left;
+  align-items: start;}
+
+.dmRow span
+{ width:25px;
+  height:25px;
+  padding:0px 15px;}
+
+ .dmRow span>img
+ { width:25px;
+  height:25px;}
+
+#Curriculum>.curriculum>.downCurr
+{ margin:30px auto;
+  background: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
+  box-shadow: 0px 1px 2px 0px #1018280D, 0px 4px 14px 2px #2699FB61;
+  border: 1px solid;
+ border-image-source: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
+ color:#fff;
+ padding:16px 48px;
+ border-radius:8px;
+ font-size:18px;
+
+}
+
+/* Curriculum DigMark ends--- */
+
+/* Why Digital marketing---------------- */
+
+#WhyDM
+{ width:100%;
+  background-color: #F7FAFF;
+}
+
+.whyDM
+{ max-width:1200px;
+  margin:auto;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.whyDM h4
+{ width:100%;
+  font-size:36px;
+  color: #0A2134;
+  padding:80px 0px 20px 20px;
+}
+
+.whyDM>p
+{ width:100%;
+  font-size:18px;
+  padding:0px 0px 30px 20px;
+}
+
+.whyDmCont
+{ width:100%;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.whyDmBox
+{ width:29.5%;
+  margin:1.5%;
+  border-radius:8px;
+  background-color: #fff;
+  border: 1px solid #F2F4F7;
+  box-shadow: 0px 1px 2px 0px #1018280D;
+ 
+}
+
+.whydmIcon
+{ margin:10% 0% 0% 8%;
+}
+
+.whydmText h5
+{ padding:15px 30px;
+  color:#0A2134;
+font-size:20px;}
+
+.whydmText>p
+{font-size:16px;
+  color:#0A2134;
+  padding:0px 20px 30px 30px;
+}
+
+#WhyDM>.whyDM>.bfreeClass
+{ margin:30px auto;
+  background: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
+  box-shadow: 0px 1px 2px 0px #1018280D, 0px 4px 14px 2px #2699FB61;
+  border: 1px solid;
+ border-image-source: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
+ color:#fff;
+ padding:16px 48px;
+ border-radius:8px;
+ font-size:18px;
+
+}
+
+/* Why Digital marketing ends------ */
+
+/* Students corner starts--------- */
+#Students
+{ width:100%;
+  background-color: #fff;
+}
+
+.students
+{ max-width: 1300px;
+  margin:auto;
+  padding-bottom:40px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.students h3
+{ width:100%;
+  font-size:44px;
+  text-align: center;
+  color:#0A2134;
+  padding:80px 0px 10px 0px;
+}
+
+.students p
+{ width:100%;
+  font-size:18px;
+  text-align: center;
+  color:#0A2134;
+  padding:10px 0px;
+}
+
+.studentsBox
+{ width:45%;
+  margin:2%;
+  background-color:#fff;
+  border-radius:8px;
+  border: 1px solid #F2F4F7;
+  box-shadow: 0px 4px 20px -2px #002F5814;
+  
+}
+
+.stDetails
+{ width:100%;
+   display:flex;
+   justify-content:center;
+   align-items: center;
+  } 
+
+.stpic
+{ width:15%;
+   margin:3%;
+}
+
+.stName
+{ width:75%;
+}
+
+.stName>b
+{ font-size:20px;
+  color:#0A2134;
+}
+
+.stName>p
+{ font-size:15px;
+  text-align: left;
+}
+
+.stText 
+{ text-align: left;
+  padding:0px 45px 30px 40px;
+  font-size:18px;
+  line-height: 30px;
+}
+
+.banner
+{ width:100%;
+  background: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
+  height:380px;
+  margin-top:40px;
+  border-radius:16px;
+  color:#fff;
+  display:flex;
+  justify-content: space-between;
+  
+  }
+
+.leftImage
+{ width:22%;}
+
+.leftImage img
+{ width:100%;
+  height:100%;
+}
+
+.rightImage
+{ width:22%;
+  height:85%;
+  margin-top:50px;
+}
+
+.rightImage img
+{ width:100%;
+  height:100%;
+}
+
+.bText
+{ width:45%;
+    height:95%;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+ }
+
+.bText>h3
+{ width:100%;
+  color:#fff;
+  font-size:44px;
+}
+
+.bText p
+{ width:100%;
+  color:#fff;
+  font-size:18px;
+  padding:0px;
+  line-height: 30px;
+  }
+
+.bText .bfreebanner
+{ background-color:#fff;
+  color:#000;
+  box-shadow: 0px 1px 2px 0px #1018280F, 0px 1px 3px 0px #1018281A;
+  border-radius:8px;
+  padding:16px 48px;
+  outline:0px;
+  border:0px;
+  font-size:18px;
+  font-weight:700;
+  margin:20px auto;
+
+  }
+
+   
+/* Students corner ends--------- */
+
+/* FAQ starts ---------------- */
+#FAQ
+{ width:100%;
+  background-color: #F7FAFF;
+}
+
+.faq
+{ max-width:1300px;
+  margin:auto;
+  padding-bottom:30px;
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.faq>h3
+{ width:100%;
+  font-size:44px;
+  padding-top:80px;
+  color:#0A2134;
+  text-align: center;
+}
+
+.faq>p
+{ width:100%;
+  color:#0A2134;
+  text-align: center;
+  font-size:18px;
+  padding:20px 0px;
+}
+
+.faqbox
+{ width:70%;
+  background-color: #fff;
+  border: 1px solid;
+  border-image-source: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
+  box-shadow: 0px 1px 2px 0px #1018280D;
+  border-radius:8px;
+  margin-top:20px;
+  position: relative;
+  
+}
+
+.faqbox>h4
+{ display:flex;
+  justify-content: space-between;
+  font-size:18px;
+  color:#0A2134;
+  padding:25px; 
+}
+
+.faqbox>h4>span>i
+{ color: #43505B;}
+
+.faqAccordian
+{ width:100%;
+  background-color:#fff;
+  border-radius:8px;
+  transform: scaleY(0);
+  transition: 0.5s;
+  position:absolute;
+  top:45px;
+}
+
+.faqAccordian>p
+{ padding:10px 90px 10px 25px;
+  font-size:15px;
+  line-height: 24px;
+  color:#0A2134;
+  transform-origin: top;
+  text-align: left; }
+
+.faqbox:hover
+{ cursor:pointer;}
+
+.faqbox:hover h4
+{ color:#2699FB;}
+
+.faqbox:hover h4>span>i
+{ color:#2699FB;}
+
+.vanishItag
+{ padding-left:3px;
+  opacity: 0;
+}
+
+.vanishPlus
+{ opacity:1;}
+
+.faqbox:hover .vanishItag
+{ opacity:1;}
+
+.faqbox:hover .vanishPlus
+{ opacity:0;}
+
+.faqbox:hover .faqAccordian
+{ transform-origin: top;
+  transform: scaleY(1);
+}
+
+.btnRowBfree
+{ width:100%;
+  margin:50px auto;
+}
+
+.bfClass
+{ width:253px;
+  height:60px;
+  background: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
+  border: 1px solid;
+  border-image-source: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
+  box-shadow: 0px 1px 2px 0px #1018280D,0px 4px 14px 2px #2699FB61;
+  color:#fff;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  margin:auto;
+  text-align: center;
+  line-height: 60px;
+}
+
+/* Faq ends------------ */
+
+/* Companies starts----------- */
+#Companies
+{  width:100%;
+  background-color: #fff;
+}
+
+.companies
+{ max-width:1300px;
+  margin:auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-bottom: 60px;
+}
+
+.companies h4
+{ width:100%;
+  text-align: center;
+  font-size:36px;
+  color:#0A2134;
+  padding:80px 0px 30px 0px;
+}
+
+.companies img
+{ margin:auto; }
+/* Companies ends-------- */
+
+/* Footer starts----------- */
+
+#Footer
+{ width:100%;
+}
+
+#Footer .footer
+{ max-width:1550px;
+  background-color: #0A2540;
+  margin:auto;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.logoFooter
+{ margin:10px auto;
+  padding-top:40px;
+}
+
+.footer p
+{ width:40%;
+  font-size:16px;
+  color:#fff;
+  line-height: 24px;
+  margin:auto;
+  text-align: center;
+  margin-bottom:20px;
+}
+
+.footer hr
+{ opacity: 30%;}
+
+.footer span
+{ width:50%;
+  font-size:16px;
+  color:#fff;
+  line-height: 24px;
+  margin:30px auto;
+  text-align: center;
+
+}
+/* Footer ends------- */
+
+
